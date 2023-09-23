@@ -12,7 +12,7 @@ const twoWeeksTwoDaysFromNow = moment().add(2, 'weeks').add(2, 'days');
 const reservations = [{
     id: '12345',
     restaurantId: '123',
-    userId: 'PgjNHDAF6DRcolNIf03o4oe4IKF2', // replace these userIds with your own
+    userId: 'PgjNHDAF6DRcolNIf03o4oe4IKF2', // replace these userIds with your own, (we have already created one user, so use its userId)
     date: dateFormat(twoWeeksFromNow),
     time: '7:00PM',
     numberOfPeople: 2,
