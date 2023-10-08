@@ -1,6 +1,6 @@
 import * as functions from 'firebase-functions';
 import { sendEmail } from './sendEmail';
-
+// temporaryUsers is the collection name and id is doc id
 export const sendVerificationEmail = functions.firestore.document('/temporaryUsers/{id}')
     .onCreate((snapshot, context) => {
         const tempUserInfo = snapshot.data();
